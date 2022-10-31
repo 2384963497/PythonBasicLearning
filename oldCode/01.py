@@ -1,0 +1,19 @@
+import os
+print('''
+54151
+sda
+safgrbg
+85u4yj854
+9+a51sc5153s
+asd
+''')
+os.system("cls")
+print('-'*16)
+print('''
+54151
+sda
+safgrbg
+85u4yj854
+9+a51sc5153s
+asd
+''')
