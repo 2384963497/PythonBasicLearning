@@ -1,14 +1,9 @@
 # Python02
 
-[toc]
 
 
 
-
-
-----
-
-##字符串:car:
+##字符串 
 
 * id(n)
 
@@ -31,7 +26,7 @@
 
   - s1 in s2 判断s1是否是s2的子串
 
-###字符串切片操作:car:
+###字符串切片操作 
 
 - str[n]
   - 下标为n的字符
@@ -112,7 +107,7 @@
 
 
 
----
+ 
 
 ## 随机数
 
@@ -124,9 +119,9 @@ import random
 1. 使用import random
 2. 使用random.randint(begin,end)
 
----
+ 
 
-## 列表:car:
+## 列表 
 
 * 列表-增删改查
 
@@ -186,7 +181,7 @@ import random
     *   列表.sort([reveres=True])
         *   方法**改变**列表的物理顺序
 
----
+ 
 
 ## 元组
 
@@ -202,9 +197,9 @@ import random
 
 
 
----
+ 
 
-## 字典:car:
+## 字典 
 
 *   格式
 
@@ -289,7 +284,7 @@ import random
             #{0: 'temp', 1: 'temp', 2: 'temp', 3: 'temp', 4: 'temp', 5: 'temp'}
             ```
 
----
+ 
 
 ## 集合
 
@@ -320,7 +315,7 @@ import random
 -   forzenset(s)
     -   返回一个不可变集合s
 
----
+ 
 
 ## 海龟绘图
 
@@ -356,9 +351,9 @@ import random
     *   write(文本,font=("字体","字号","italic","bold"))
 
 
----
 
-## 函数:car:
+
+## 函数 
 
 *   定义和调用格式
 
@@ -438,9 +433,9 @@ import random
                 def fun1(name,*score)
                 
                 fun1('1',[12,635,1])
-                #score--->> ([12,635,1])
+                #score >> ([12,635,1])
                 fun1('1',[12,635,1],5,9)
-                #score--->> ([12,635,1],5,9)
+                #score >> ([12,635,1],5,9)
                 ```
 
         -   不定长和必备参数使用时要避免二义性
@@ -529,7 +524,7 @@ import random
     *   如果需要改外部函数的不可变类型，则要加nonlocal 变量名
     *   内部函数修改全局不可变变量则需要加global 变量名  
 
----
+ 
 
 ## 单词
 
